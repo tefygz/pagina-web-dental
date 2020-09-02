@@ -141,7 +141,7 @@ body{
   
 }
 .contenido-slider:nth-child(2){
-  background: url('../img/3.jpg');
+  background: url('../img/3_opt.jpg');
   background-size: cover;
   background-position-y: center;
   background-position-x: center;
@@ -149,7 +149,7 @@ body{
 }
 .contenido-slider:nth-child(3){
  /*  background: #611a68; */
- background: url('../img/2.jpg');
+ background: url('../img/2_opt.jpg');
  background-size: cover;
  background-position-y: center;
  background-position-x: center;
@@ -235,7 +235,7 @@ body{
 /* servicios */
 .servicios-generales{
   /* background: #2570ff; */
-  background: rgba(63, 191, 191, .5) url('../img/fondo.jpg');
+  background: rgba(63, 191, 191, .5) url('../img/fondo_opt.jpg');
   background-size: cover;
   height: 100vh;
   margin-top: 100px;
@@ -553,7 +553,7 @@ footer{
     -webkit-clip-path: circle(150% at 100% 0);
     clip-path: circle(150% at 100% 0);
 }
-.nav .enlaces-header a{
+.nav .menu-nav a{
     color: #fff;
 }
 .hamburguer{
@@ -618,11 +618,15 @@ footer{
     justify-content: center;
     align-items: center;
   }
+  /* servicios */
   .servicios .servicio{
     width: 100%;
   }
-  
+  .servicio h4{
+    font-size: 5vw;
+  }
   .servicios-generales{
+    background-position-x: center;
     margin-top: 50px;
   }
   .foto{
